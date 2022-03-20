@@ -1,0 +1,2 @@
+resetDetectionClassifications();
+runObjectClassifier("NeuOmean30+");

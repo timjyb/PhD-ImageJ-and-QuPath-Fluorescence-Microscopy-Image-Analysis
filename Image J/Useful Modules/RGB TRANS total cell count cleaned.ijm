@@ -1,0 +1,10 @@
+run("Split Channels");
+selectWindow("10k BV2 20x 50ug ph6_0001_RGB Trans-1.tif (blue)");
+close();
+selectWindow("10k BV2 20x 50ug ph6_0001_RGB Trans-1.tif (green)");
+close();
+selectWindow("10k BV2 20x 0ug ph6_0005_RGB Trans.tif (red)");
+run("Subtract Background...", "rolling=100 light");
+run("Invert");
+run("Gaussian Blur...", "sigma=5");
+run("Find Maxima...", "prominence=25 output=Count");

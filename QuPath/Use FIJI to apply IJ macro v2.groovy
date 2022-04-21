@@ -10,7 +10,7 @@ params.getParameters().get('sendROI').setValue(false)
 print ParameterList.getParameterListJSON(params, ' ')
 
 // Get the macro text and other required variables
-def macro = new File('C:/Users/timjy/OneDrive - University of Cambridge/CAMBRIDGE PHD/Biochemistry/Scripts and Code/Image J/Microglia nuclei-based watershed from QP v2.ijm').text
+def macro = new File('C:/Users/timjy/OneDrive - University of Cambridge/CAMBRIDGE PHD/Biochemistry/ImageJ and Qupath Scripts and Code/Image J/Microglia nuclei-based watershed from QP v3.ijm').text
 def imageData = getCurrentImageData()
 createSelectAllObject(true)
 def annotation = getSelectedObject()

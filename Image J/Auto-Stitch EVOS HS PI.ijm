@@ -73,5 +73,3 @@ for(k=0; k<unique_well_list.length; k++){
 	saveAs("tiff", output + curr_well + " Stitch");
 	run("Close All");
 }
-
-

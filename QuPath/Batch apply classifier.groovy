@@ -1,2 +1,2 @@
 resetDetectionClassifications();
-runObjectClassifier("NeuOmean30+");
+runObjectClassifier("PI15+");
